@@ -1,0 +1,5 @@
+# Envios e Commit
+
+- Cada projeto possui seu proprio `readme.md` informando como rodar o projeto e suas respectivas explicações de como realizei minhas escolhas, deixei tambem comentarios em locais estrategicos do codigo para facilitar a compreensão e leitura
+
+- Como os desafios foram desenvolvidos de forma independente, optei por organizar os commits de acordo com cada projeto, mantendo as alterações de cada desafio agrupadas e facilitando a identificação do que foi desenvolvido em cada etapa. Para a identificação dos commits, utilizei principalmente os tipos `feat`, `chore` e `docs`, de acordo com oque foi realizado. No caso, utilizei `chore` para configurações e inicialização de dependências, `feat` para implementação das funcionalidades e `docs` para alterações relacionadas à documentação. Embora não tenha utilizado outros tipos de commit neste desafio, conheço suas finalidades e diferenças, como fix, utilizado para correções de problemas
