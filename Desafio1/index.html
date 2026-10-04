@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Desafio 1</h1>
+    </header>
+
+    <main>
+    <!-- Form que vai conter toda parte de cadastro de usuário -->
+        <form onsubmit="return alert('Usuário cadastrado com sucesso!')">
+            <fieldset>
+                <legend>Cadastro do Usuário!</legend>
+                <!-- Div para agruparmos os elementos do formulário sem a lengenda -->
+                <div class="formulario">
+                    <!-- Campo para o cadastro do nome do usuário do tipo texto-->
+                    <div>
+                        <label for="nome">Nome*</label>
+                        <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+    
+                    <!-- Campo para o cadastro do email do usuário do tipo email-->
+                    <div>
+                        <label for="email">Email*</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+    
+                    <!-- Campo para o cadastro da senha do usuário do tipo password-->
+                    <div>
+                        <label for="senha">Senha*</label>
+                        <input 
+                            id="senha" type="password" name="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]+$" required
+                            placeholder="Digite sua senha, ela deve conter ao menos uma letra maiúscula e uma letra minúscula" 
+                        >
+                    </div>
+                    <button id="button" type="submit">Cadastrar Usuário!</button>
+                </div>
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Feito pelo próximo DEV da <span style="color: #EF940D;">LiveSeo</span> 🫡</p>
+    </footer>
+    
+</body>
+</html>

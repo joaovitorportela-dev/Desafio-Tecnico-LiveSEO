@@ -1,0 +1,102 @@
+/* Estilo para o corpo total da página */
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #1E1E1E;
+    color: #FDFEFD;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o texto Desafio 1, inserido no topo */
+header{
+    background-color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+    color: #FDFEFD;
+
+}
+
+/* Estilo para a parte central da página, para se separar do header e do footer */
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para o formulário de cadastro */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para o rodapé do site */
+footer{
+	background-color: #000000;
+	color: #FDFEFD;
+	text-align: center;
+	padding: 24px;
+}
+
+/* Estilo para os campos onde o usuário irá digitar */
+input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #EF940D;
+}
+
+/* Estilo para o botão de Cadastro */
+#button{   
+    display:block;
+    background-color:#EF940D;
+    border-radius: 6px;
+    border: 1px solid #EF940D;
+    color: white;
+    width: 30%;
+    height: 30px;
+    font-weight: bold;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Detalhe para ao passar o mouse para o botão o usuário ter algo visível */
+#button:hover{
+	background-color: #EF940D;
+	color: #1E1E1E;
+}
+
+/* Estilo para o campo que agrupa os elementos do formulário */
+fieldset{
+    border: 1px solid #EF940D;
+    padding: 20px;
+}
+
+/* Estilo para a Legenda do formulário */
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Estilo para os nomes que aparecem acima dos campos */
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para arrumar o espaçamento e alinhamento dos elementos dentro do formulário */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
