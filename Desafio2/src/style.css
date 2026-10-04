@@ -1,0 +1,139 @@
+/* Parte geral */
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #1E1E1E;
+    color: #FDFEFD;
+    font-family: Arial, sans-serif;
+}
+
+#app{
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* Parte do TodoForm */
+.formulario{
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.divformulario{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.inputForm{
+  flex: 1;
+  margin-bottom: 0;
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid #EF940D;
+}
+
+.addTarefa{
+  width: auto;
+  padding: 0 20px;
+  height: 38px;
+  margin: 0;
+  background-color:#EF940D;
+  border-radius: 6px;
+  border: 1px solid #EF940D;
+  color: white;
+  font-weight: bold;
+}
+
+.addTarefa:hover{
+  background-color:#ffb546 ;
+}
+
+/* Parte do TodoFilter */
+.divFiltro{
+    display: flex;
+    justify-self: right;
+    gap:20px;
+}
+
+.filtros{
+    cursor: pointer;
+}
+
+
+/* Parte do TodoItem */
+.divItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;            
+  padding: 10px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.divLabelInput{
+  display: flex;
+  justify-self: right;
+  gap: 20px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.btnRemover{
+    display:block;
+    background-color:rgb(145, 27, 27);
+    border-radius: 6px;
+    border: 1px solid rgb(145, 27, 27);
+    color: white;
+    width: 80%;
+    height: 30px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.btnRemover:hover{
+  background-color:rgb(255, 0, 0);
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.labelConcluir {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 6px;
+}
+
+/* Parte do TodoList */
+
+.fieldsetTarefas{
+  border: 1px solid #f7f6f4;
+  border-radius: 8px;         
+  padding: 25px;
+  min-height: 250px; 
+}
+
+.legendTarefas{
+  font-weight: bold;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
